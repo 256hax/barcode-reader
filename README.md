@@ -36,3 +36,4 @@ Open local IP address on your Mac(ex: https://localhost:3000/).
 ## Note
 - Readable for black text barcode.
 - iPhone camera allows for only https.
+- Scanner.tsx doesn't work for now.
