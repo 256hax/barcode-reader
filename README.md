@@ -4,8 +4,8 @@ Copy from Qugga2.
 
 ## Source
 - [Quagga2](https://github.com/ericblade/quagga2)
-- [quagga2-react-example](https://github.com/ericblade/quagga2-react-example/)
-and look at each source.
+- [quagga2-react-example](https://github.com/ericblade/quagga2-react-example/)  
+and look at each source(writed reference url inside my code).
 
 ## Run
 ```
@@ -13,7 +13,7 @@ and look at each source.
 % HTTPS=true npm start
 ```
 
-Then you'll get something like following: 
+You'll get something like following: 
 
 ```
 Compiled successfully!
@@ -35,4 +35,4 @@ Open local IP address on your Mac(ex: https://localhost:3000/).
 
 ## Note
 - Readable for black text barcode.
-- iPhone camera allow for only https.
+- iPhone camera allows for only https.
