@@ -4,37 +4,37 @@ import { QuaggaJSResultObject_CodeResult } from "@ericblade/quagga2";
 import { MutableRefObject } from "react";
 
 export type onDetectedType = (
-    code: QuaggaJSResultObject_CodeResult["code"]
-  ) => void;
+  code: QuaggaJSResultObject_CodeResult["code"]
+) => void;
   
-  export type onScannerReady = () => void;
-  
-  export interface DefaultConstraints {
-    width: number;
-    height: number;
-  }
-  
-  export interface DefaultLocatorSettings {
-    patchSize: "small" | "medium" | "large";
-    halfSample: boolean;
-  }
-  
-  export interface ScannerProps {
-    onDetected: onDetectedType;
-    scannerRef: MutableRefObject<any>;
-    onScannerReady?: any;
-    cameraId?: string;
-    facingMode?: string;
-    constraints?: DefaultConstraints;
-    locator?: DefaultLocatorSettings;
-    numOfWorkers?: number;
-    decoders?: string[];
-    locate?: boolean;
-  }
+export type onScannerReady = () => void;
 
-  export interface ResultProps {
-    result: {
-        codeResult: {
+export interface DefaultConstraints {
+  width: number;
+  height: number;
+}
+
+export interface DefaultLocatorSettings {
+  patchSize: "small" | "medium" | "large";
+  halfSample: boolean;
+}
+
+export interface ScannerProps {
+  onDetected: onDetectedType;
+  scannerRef: MutableRefObject<any>;
+  onScannerReady?: any;
+  cameraId?: string;
+  facingMode?: string;
+  constraints?: DefaultConstraints;
+  locator?: DefaultLocatorSettings;
+  numOfWorkers?: number;
+  decoders?: string[];
+  locate?: boolean;
+}
+
+export interface ResultProps {
+  result: {
+      codeResult: {
         code: any;
         format: any;
     };
